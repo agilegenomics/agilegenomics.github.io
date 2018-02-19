@@ -52,7 +52,7 @@ baseurl: ""
 
 github:
   # url: ""
-  url: "https://agilegenomics.github.io"
+  url: "http://localhost:8000/_site/"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
