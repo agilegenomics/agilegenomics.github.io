@@ -1,9 +1,9 @@
 ---
-title: Sync4Genes
+title: Agile Genomics
 layout: home
 ---
 
-# Sync for Genes is the first step toward integrating clinical genomics into point-of-care and expanding from Sync for Science's™ core clinical data to genomics-  by leveraging FHIR<sup>®</sup> Genomics. 
+# The Consortium for Agile Genomics (CAG) promotes implementation of an HL7 FHIR Genomics platform and provides project support, certification, expertise, and validation tools that help its members navigate, implement, and collaborate on challenges of genomic integration.  This will be achieved by leveraging FHIR-linked technologies to implementing genomics to solve problems in healthcare.
 
 -------
 

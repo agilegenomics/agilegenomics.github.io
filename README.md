@@ -1,2 +1,2 @@
-# sync4genes
-sync for genes project website
+# Agile Genomics
+Agile Genomics project website
