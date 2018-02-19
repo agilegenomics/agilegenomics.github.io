@@ -9,84 +9,73 @@ body {
 }
 
 body{
-    display: box;
+    margin: 0;
     min-height: 100%;
     width:100%;
 }
 
-.header-bar{
-    height: 50px;
-    background-color: #000000;
-    position: fixed;
-    top:0;
-    width: 100%;
-    padding:10px;
+div.container-fluid{
+    padding:0 !important;
+}
+
+div.header{
+    padding: 0 10px;
+    width:100%;
+    height:75px;
+    display: flex;
     display: -webkit-flex;
-    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    flex-flow: row;
-    color: #fff;
+    border-bottom-color: #ababab;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
-.header-bar .head-title{
-    text-align: left;
-    flex:1 1 auto;
-}
-.header-bar .head-title .head-title-text {
-    text-align: left;
+
+div.header span.header-title-text{
     font-size: 1.5em;
-    font-weight: bold;
-    line-height: 1.4em;
-    color: inherit;
 }
 
-.header-bar .head-tools {
-    flex:0 1 auto;
+div.header span.header-title-text img{
+    width: 100px;
 }
 
-#main{
-    width: 100%;
-    min-height: 100%;
-    padding: 0;
-    overflow: auto;
+div.header .btn{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div#main{
+    width:100%;
+    min-height:100%;
     display: flex;
-    flex-flow: column;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
-
-#main div.big-title{
-    flex: 1;
-    width: 100%;
-    height: 600px;
-    display: flex;
-    flex-flow: row;
-    padding: 50px;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url('https://sync4genes.github.io//images/s4g.jpg');
+div.big-title{
+    flex:1 1 auto;
+    width:100%;
+    height:700px;
+    background-image: url('http://localhost:8000/_site//images/agilegenomics_pic2.png');
+    background-size:cover;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
 }
 
-#main div.big-title .big-title-text{
-    font-size: 4.5em !important;
-    font-weight: bolder;
-    text-shadow: 1px 1px 10px #000000;
-}
-
-#main div.content, #main div.content-left{
-    flex: 1;
+div.contents{
+    flex: 2 1 auto;
     width: 70%;
-    margin: 100px auto;
-}
-
-#main div.content{
+    margin: 20px auto;
     text-align: center;
 }
 
-.mid-img{
-    margin: 0 auto;
+div.contents h2{
+    font-size: 1.8em;
+    line-height: 2.1em;
 }
 
+div.contents h4{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}

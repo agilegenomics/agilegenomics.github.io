@@ -1,10 +1,10 @@
-<div class="header-bar">
-    <div class="head-title">
-        <span class="head-title-text">{{ site.name }}</span>
+<div class="header">
+    <div class="header-title">
+        <span class="header-title-text"><img src="{{ site.github.url }}/images/agile_genomics_logo.png" alt="logo" class="logo" /> {{ site.name }}</span>
     </div>
-    <div class="head-tools">
-    {% for link in site.data.headerlinks.links %}
-        <a href="{{link.url}}" class="ui inverted basic button">{{link.name}}</a>
-    {% endfor %}
+    <div class="header-tool">
+        {% for link in site.data.headerlinks.links %}
+            <a href="{{link.url}}" class="btn btn-light">{{link.name}}</a>
+        {% endfor %}
     </div>
 </div>

@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: AgileGenomics
+name: Agile Genomics
 
 # Short bio or description (displayed in the header)
 description: Agile Genomics
@@ -40,7 +40,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: ""
+url: "http://localhost:8000/_site/"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -52,7 +52,7 @@ baseurl: ""
 
 github:
   # url: ""
-  url: "https://agilegenomics.github.io"
+  url: "http://localhost:8000/_site/"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -75,11 +75,6 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
